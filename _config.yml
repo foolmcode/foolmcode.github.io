@@ -63,9 +63,9 @@ author:
   bio              : "多做有意义的事。"
   location         : "现居：北京顺义"
   links:
-    - label: "主页"
+    - label: "微博"
       icon: "fas fa-fw fa-link"
-      url: "https://your-site.com"
+      url: "https://weibo.com/u/6510307228/home#_0"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"

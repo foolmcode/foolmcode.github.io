@@ -2,9 +2,9 @@
 main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "历年文章"
+  - title: "iOS开发历年文章"
     url: /year-archive/
-  - title: "分类"
+  - title: "其他文章分类"
     url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
