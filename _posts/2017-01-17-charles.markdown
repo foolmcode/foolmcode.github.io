@@ -1,0 +1,41 @@
+---
+title:  "mac Charles抓包https步骤"
+---
+### 环境  
+- charles版本:v3.11 
+- 网络:以太网
+
+### 配置步骤
+
+#### 1. 创建wifi  
+  - 点击  - 系统偏好设置 - 共享。进行配置  
+  ![](/assets/image/0005.jpeg)   
+  - 点击Wi-Fi选项设置网络名称，并进行密码设置
+  ![](/assets/image/0006.png) 
+  - 启动配置好的wifi
+  ![](/assets/image/0007.png) 
+
+#### 2. 用iOS设备找到创建好的wifi，输入密码并连接。 
+ 
+#### 3. 设置HTTP代理  
+- 在iOS设备wifi列表找到刚配置的网络名称，点击感叹号   
+![](/assets/image/0008.png)   
+- 可以看到如下内容  
+![](/assets/image/0010.png)   
+- 服务器地址获取方式：点击  - 系统偏好设置 - 网络    
+![](/assets/image/0009.png) 
+- 端口获取方式:打开Charles，进行如下操作。    
+![](/assets/image/0004.png)
+  
+#### 4. 安装证书
+用iOS设备打开safari输入网址`http://charlesproxy.com/getssl` 点击安装并验证自己的设备密码。  
+![](/assets/image/0011.png)  
+安装成功后效果如下     
+![](/assets/image/0012.png)
+
+#### 5.在Charles里开启可以访问https的网址。    
+![](/assets/image/0013.png)  
+以下为测试访问  
+![](/assets/image/0014.png)
+   
+
